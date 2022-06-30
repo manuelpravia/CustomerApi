@@ -17,7 +17,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("api/customers")
+@RequestMapping("customers")
 public class CustomerApi {
 
     @Autowired
